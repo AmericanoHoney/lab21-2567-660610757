@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { LowSync } from "lowdb";
+import { LowSync, MemorySync } from "lowdb";
 import { JSONFileSync } from "lowdb/node";
 import fs from "fs";
 

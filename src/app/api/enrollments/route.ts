@@ -1,5 +1,5 @@
 import { checkToken } from "@lib/checkToken";
-import { Payload } from "@lib/types";
+import { Database, Payload } from "@lib/types";
 import { NextRequest, NextResponse } from "next/server";
 import { getPrisma } from "@lib/getPrisma";
 
